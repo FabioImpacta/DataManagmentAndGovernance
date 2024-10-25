@@ -1,0 +1,29 @@
+version: 2
+models:
+  - name: netflix_titles
+    description: "Tabela contendo informacoes sobre filmes e series da Netflix"
+    columns:
+      - name: show_id
+        description: "Unique ID for every Movie / TV Show"
+      - name: type
+        description: "Identifier - A Movie or TV Show"
+      - name: title
+        description: "Title of the Movie / TV Show"
+      - name: director
+        description: "Director of the Movie"
+      - name: cast
+        description: "Actors involved in the movie/show"
+      - name: country
+        description: "Country where the movie/show was produced"
+      - name: date_added
+        description: "Date it was added on Netflix"
+      - name: release_year
+        description: "Actual Release year of the movie/show"
+      - name: rating
+        description: "TV Rating of the movie/show"
+      - name: duration
+        description: "Total Duration - in minutes or number of seasons"
+      - name: listed_in
+        description: "Genre"
+      - name: description
+        description: "The summary description"
